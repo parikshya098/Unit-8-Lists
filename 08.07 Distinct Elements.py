@@ -4,6 +4,5 @@ count = 0
 
 for i in range(1, len(lst_input)):
     if lst_input[i] != lst_input[i-1]:
-        count += 1
-            
+        count += 1    
 print("Number of Distinct Elements:",count)
